@@ -1,0 +1,100 @@
+# Created by https://www.toptal.com/developers/gitignore/api/react
+# Edit at https://www.toptal.com/developers/gitignore?templates=react
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+# End of https://www.toptal.com/developers/gitignore/api/react
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+pippa-be/pippa/.idea/**/workspace.xml
+pippa-be/pippa/**/misc.xml
+pippa-be/pippa/**/tasks.xml
+pippa-be/pippa/**/compiler.xml
+pippa-be/pippa/**/usage.statistics.xml
+pippa-be/pippa/**/dictionaries
+pippa-be/pippa/.idea/**/shelf
+
+# AWS User-specific
+pippa-be/.idea/**/aws.xml
+
+# Generated files
+pippa-be/.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+pippa-be/pippa/.idea/**/dataSources/
+pippa-be/pippa/.idea/**/dataSources.ids
+pippa-be/pippa/.idea/**/dataSources.local.xml
+pippa-be/pippa/.idea/**/sqlDataSources.xml
+pippa-be/pippa/.idea/**/dynamic.xml
+pippa-be/pippa/.idea/**/uiDesigner.xml
+pippa-be/pippa/.idea/**/dbnavigator.xml
+
+# Gradle
+pippa-be/pippa/.idea/**/gradle.xml
+pippa-be/pippa/idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# pippa-be/pippa/.idea/artifacts
+# pippa-be/pippa/.idea/compiler.xml
+# pippa-be/pippa/.idea/jarRepositories.xml
+# .idea/modules.xml
+# pippa-be/pippa/.idea/*.iml
+# pippa-be/pippa/.idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+pippa-be/pippa/.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+pippa-be/.idea/replstate.xml
+
+# SonarLint plugin
+pippa-be/.idea/sonarlint/
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+pippa-be/.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+pippa-be/.idea/caches/build_file_checksums.ser
